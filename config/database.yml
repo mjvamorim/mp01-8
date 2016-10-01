@@ -1,0 +1,16 @@
+#
+default: &default
+  adapter: postgresql
+  enconding: unicode
+
+development:
+  <<: *default
+  database: mp01_devp
+
+test:
+  <<: *default
+  database: mp01_test
+
+production:
+  <<: *default
+  database: mp01_prod
