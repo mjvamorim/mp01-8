@@ -3,7 +3,7 @@ ruby '2.2.3'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.2'
+gem 'rails', '4.2.3'
 # Database for Active Record
 #gem 'sqlite3'
 gem 'pg'
@@ -62,4 +62,5 @@ gem 'devise'
 gem 'devise-i18n'
 gem 'devise_invitable'
 gem 'devise-bootstrap-views'
+
 
